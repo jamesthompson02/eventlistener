@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+
+body {
+  background-color: rgb(65, 65, 65);
+}
+
+.nav {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
+.nav a {
+    font-family: Sacramento;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 100px;
+    margin: 1.5vw
+  }
+
+.section {
+    font-family: Joan;
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+.section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.heading {
+    font-family: Joan;
+    font-size: 20px;
+    color: aliceblue;
+  }
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.fifty {
+    font-size: 50px;
+}
